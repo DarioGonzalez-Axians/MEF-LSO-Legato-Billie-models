@@ -15,7 +15,7 @@ except IOError:
     LONG_DESCRIPTION = DESCRIPTION
 
 setuptools.setup(
-    name                          = "meflsolegato-models",
+    name                          = "meflsolegatomodels",
     version                       = "1.0",
     description                   = DESCRIPTION,
     long_description              = LONG_DESCRIPTION,
