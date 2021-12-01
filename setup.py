@@ -15,7 +15,7 @@ except IOError:
     LONG_DESCRIPTION = DESCRIPTION
 
 setuptools.setup(
-    name                          = "meflsolegatomodels",
+    name                          = "MEF-LSO-Legato | Billie | Models",
     version                       = "1.0",
     description                   = DESCRIPTION,
     long_description              = LONG_DESCRIPTION,
@@ -23,7 +23,7 @@ setuptools.setup(
     author                        = "Axians Spain Development Team",
     author_email                  = "desarrollosoftware@axians.es",
     python_requires               = ">=3.9",
-    packages                      = ['models'],
+    packages                      = ['mef_lso_legato_models'],
     install_requires              = ["pydantic==1.8.2"],
     extras_require                = {},
     include_package_data          = True,
